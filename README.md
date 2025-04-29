@@ -10,6 +10,7 @@ A modern, opinionated Node.js project starter template using TypeScript. Include
 - ✅ Vitest for unit testing with coverage support
 - ✅ TSX for fast local development with `.env` support
 - ✅ Pre-commit checks using Husky and lint-staged
+- ✅ Guided Conventional Commits via CLI in pre-commit hook
 - ✅ GitHub Actions workflows for CI
 
 ## Getting Started
@@ -71,6 +72,8 @@ npm run coverage  # run tests with coverage
 ## Pre-Commit Hooks
 
 Powered by **Husky** and **lint-staged**. Automatically checks and formats code before commits.
+
+Additionally, a CLI tool is triggered to help you write [Conventional Commits](https://www.conventionalcommits.org/), ensuring consistent and meaningful commit messages.
 
 ## Linting & Formatting
 
