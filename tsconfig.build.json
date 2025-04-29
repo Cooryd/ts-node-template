@@ -1,0 +1,8 @@
+{
+  "extends": "./tsconfig.base.json",
+  "exclude": ["**/*.test.ts", "**/*.spec.ts", ".husky/*"],
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src"
+  }
+}

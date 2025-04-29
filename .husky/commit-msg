@@ -1,0 +1,12 @@
+#!/bin/sh
+
+echo "⏱️ Running commit message checks..."
+
+commit_message_file="$1"
+
+
+npx tsx .husky/commit-message-cli.ts "$commit_message_file" < /dev/tty > /dev/tty
+
+commit_message=$(cat "$commit_message_file")
+
+echo "✅ Commit message created: $commit_message"
